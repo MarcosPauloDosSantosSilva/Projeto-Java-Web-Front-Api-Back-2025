@@ -10,7 +10,7 @@ const inpulttelefone = document.querySelector(".fone");
 
 function Cadastrar(){
 
-    fetch("http://localhost:8080/Cadastrar",
+    fetch("http://localhost:8080/cadastro",
         {
             headers:{
                 'Accept':'application/json',
